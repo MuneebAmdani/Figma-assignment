@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Wagon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link defer href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- ------------------------------------header-start---------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/Logo.png" alt="food-wagon"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="font-size: 80%;"><b>Deliver to:</b><i class="fa-solid fa-location-dot"></i>Current location: <b>Mohammadpur Bus Stand,Dhaka</b></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search food" aria-label="Search">
+            </form>
+            <ul>
+            <li class="nav-item-login">
+                <a class="nav-link active" aria-current="page" href="#"><img src="./images/Frame 29.png" alt="login button"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- ------------------------------header-end------------------------------------------- -->
+     <!-- -------------------------------------------banner-start----------------------------------- -->
+     <section class="banner">
+        <div class="container">
+            <div class="row align-items-end conn">
+                <div class="col-6 pb-5">
+                    <h1 class="banner-heading">Are you starving?</h1>
+                    <p>Within a few clicks, find meals that are accessible near you</p>
+                    <div class="banner-pickup mb-5">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-bicycle"></i>Delivery</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-bag-shopping"></i> Pickup</button>
+                            </li>
+                           
+                          </ul>
+                          <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <form class="row g-3">
+                                    <div class="col-md-9">
+                                      <input type="text" class="form-control" placeholder="Enter Your Address">
+                                    </div>
+                                    <div class="col-md-3">
+                                      <button type="submit" class="btn btn-main"><i class="fa-solid fa-magnifying-glass"></i> Find Food</button>
+                                    </div>
+                                  </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <form class="row g-3">
+                                    <div class="col-md-9">
+                                      <input type="text" class="form-control" placeholder="Enter Your Address">
+                                    </div>
+                                    <div class="col-md-3">
+                                      <button type="submit" class="btn btn-main"><i class="bi bi-search"></i> Find Food</button>
+                                    </div>
+                                  </form>
+
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img class="w-100" src="./images/banner-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------------banner-end------------------------------------------- -->
+    <!-- -----------------------------------greys-vage--------------------------------------------- -->
+  <section id="greys-vage">
+            <ul>
+            <li class="first"><figure>
+                <img src="./images/Food Photo.png" alt="first">
+                <figcaption>
+                    <h3 class="small-size">
+                    Greys Vage</h3>
+                    <img src="./images/Frame 77.png" alt="food1">
+                </figcaption>
+            </figure></li>
+        <li><figure class="second-card">
+                <img src="./images/Food Photo (1).png" alt="second">
+                <figcaption>
+                    <h3 class="small-size">Greys Vage</h3>
+                    <img src="./images/Frame 77.png" alt="food2">
+                </figcaption>
+            </figure></li>
+        <li><figure>
+                <img src="./images/Food Photo (2).png" alt="third" >
+                <figcaption>
+                    <h3 class="small-size">Greys Vage</h3>
+                    <img src="./images/Frame 77 (1).png" alt="food3">
+                </figcaption>
+            </figure></li>
+        <li><figure>
+                <img src="./images/Food Photo (3).png" alt="fourth">
+                <figcaption>
+                    <h3 class="small-size">Greys Vage</h3>
+                    <img src="./images/Frame 77 (2).png" alt="food4">
+                </figcaption>
+            </figure></li>
+        </ul>
+  </section><br><br>
+  <!-- ----------------------------------greys-vage-end--------------------------------------- -->
+  <!-- ---------------------------------------how-does-it-work-start--------------------------------- -->
+  <section id="how-does-it-work">
+    <h2><b>How does it work</b></h2>
+    <ul>
+        <li><figure>
+            <img src="./images/Icons.png" alt="icon">
+            <figcaption>
+                <h3>Select location</h3>
+                <p>Choose the location where your food will be delivered.</p>
+            </figcaption>
+        </figure></li>
+        <li><figure>
+            <img src="./images/Menu.png" alt="icon">
+       <figcaption>
+            <h3>Choose order</h3>
+            <p>
+                Check over hundred of menus to pick your favourite food.
+            </p>
+        </figcaption> </figure></li>
+        <li class="new-problem"><figure>
+            <img src="./images/Icons (1).png" alt="icon">
+    <figcaption>
+        <h3>Pay advavced</h3>
+        <p>It's quick safe and simple.Select several methods of payment.</p>
+    </figcaption></figure></li>
+        <li><figure>
+            <img src="./images/Icons (2).png" alt="icon">
+        </figure>
+    <figcaption><h3>Enjoy meals</h3>
+    <p>Food is made and delievered directly to your home.</p></figcaption></li>
+    </ul>
+  </section><br><br>
+  <!-- ----------------------------how-does-it-work-end------------------------------------- -->
+  <!-- ---------------------------------popular-items-start----------------------------------------------- -->
+  <section id="popular-items">
+    <h2><b>Popular Items</b></h2><br>
+    <ul>
+        <li><figure>
+            <img src="./images/Frame 40.png" alt="Cheese-burger">
+            <figcaption><h3><b>Cheese Burger</b></h3>
+                <p><img src="./images/Icons.png" alt="burger-arena">Burger Arena</p>
+            </figcaption>
+        </figure><figure>
+        <p><b>$3.88</b></p></figure>
+       <figure class="long-button"><img src="./images/Button (1).png" alt="order"></figure></li>
+        <li><figure>
+            <img src="./images/Frame 40 (1).png" alt="Toffe's Cake">
+            <figcaption><h3><b>Toffe's Cake</b></h3>
+                <p><img src="./images/Icons.png" alt="top-sticks">Top Sticks</p>
+            </figcaption>
+        </figure>
+    <figure> <p><b>$4.00</b></p></figure>
+        <figure class="long-button"><img src="./images/Button (1).png" alt="order"></figure></li>
+        <li><figure>
+            <img src="./images/Frame 40 (2).png" alt="Dancake">
+            <figcaption><h3><b>Dancake</b></h3>
+                <p><img src="./images/Icons.png" alt="cake-world">Cake World</p>
+            </figcaption>
+        </figure>
+    <figure> <p><b>$1.99</b></p></figure>
+        <figure class="long-button">  <img src="./images/Button (1).png" alt="order"></figure></li>
+        <li><figure>
+            <img src="./images/Frame 40 (3).png" alt="Crispy-Sandwitch">
+            <figcaption><h3><b>Crispy Sandwitch</b></h3>
+                <p class="masla-hai"><img src="./images/Icons.png" alt="fastfood-dine">Fastfood Dine</p>
+            </figcaption>
+        </figure>
+    <figure>  <p><b>$3.00</b></p></figure>
+    <figure class="long-button"><img src="./images/Button (1).png" alt="order"></figure></li>
+        <li><figure>
+            <img src="./images/Frame 40 (4).png" alt="Thai-soup">
+            <figcaption><h3><b>Thai Soup</b></h3>
+                <p><img src="./images/Icons.png" alt="foody-man">Foody man</p>
+            </figcaption>
+        </figure>
+        <figure><p><b>$3.88</b></p></figure>
+            <figure class="long-button"><img src="./images/Button (1).png" alt="order"></figure></li>
+    </ul>
+  </section><br>
+  <!-- ---------------------------------popular-items-end----------------------------------------------- -->
+  <!-- ---------------------------------------featured-restaurant-start------------------------------------------ -->
+  <section id="featured-restaurant">
+    <h2><b>Featured Restaurant</b></h2>
+    <ul>
+        <li>
+            <figure>
+                <img src="./images/Food Photo (4).png" alt="Food-photo">
+                <figcaption><img src="./images/Image (16).png" alt="restaurant"><p><img src="./images/Name + Review.png" alt="food world"></p></figcaption>
+             </figure>
+             <figure class="opening"><img src="./images/Badge.png" alt="open"></figure>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/Food Photo (6).png" alt="Food-photo">
+                <figcaption><img src="./images/Image (17).png" alt="restaurant"><p><img src="./images/Name + Review (1).png" alt="food world"></p></figcaption>
+             </figure>
+             <figure class="opening"><img src="./images/Badge.png" alt="open"></figure>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/Food Photo (7).png" alt="Food-photo">
+                <figcaption><img src="./images/Restaruant Logo.png" alt="restaurant"><p><img src="./images/Name + Review (2).png" alt="food world"></p></figcaption>
+             </figure>
+             <figure class="opening2"><img src="./images/Badge (1).png" alt="open"></figure>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/Food Photo (8).png" alt="Food-photo">
+                <figcaption><img src="./images/Image (18).png" alt="restaurant"><p><img src="./images/Name + Review (3).png" alt="food world"></p></figcaption>
+             </figure>
+             <figure class="opening2"><img src="./images/Badge (1).png" alt="open"></figure>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/Food Photo (9).png" alt="Food-photo">
+                <figcaption><img src="./images/Image (19).png" alt="restaurant"><p><img src="./images/Name + Review (4).png" alt="food world"></p></figcaption>
+             </figure>
+             <figure class="opening2"><img src="./images/Badge (1).png" alt="open"></figure>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/Food Photo (10).png" alt="Food-photo">
+                <figcaption><img src="./images/Image (20).png" alt="restaurant"><p class="problem"><img src="./images/Name + Review (5).png" alt="food world"></p></figcaption>
+             </figure>
+             <figure class="opening2"><img src="./images/Badge (1).png" alt="open"></figure>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/Food Photo (11).png" alt="Food-photo">
+                <figcaption><img src="./images/Image (21).png" alt="restaurant"><p><img src="./images/Name + Review (6).png" alt="food world"></p></figcaption>
+             </figure>
+             <figure class="opening2"><img src="./images/Badge (1).png" alt="open"></figure>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/Food Photo (12).png" alt="Food-photo">
+                <figcaption><img src="./images/Image (22).png" alt="restaurant"><p><img src="./images/Name + Review (7).png" alt="food world"></p></figcaption>
+             </figure>
+             <figure class="opening2"><img src="./images/Badge (1).png" alt="open"></figure>
+        </li>
+    </ul>
+    <figure class="button"><a href="#"><img src="./images/Button (3).png" alt="button"></a></figure>
+  </section>
+  <!-- -----------------------------------------------featured-restaurant-end--------------------- -->
+  <!-- ---------------------------------------------------food-options-start-------------------------- -->
+  <section id="food-options">
+    <ul>
+        <li><figure><a href="#"><img src="./images/Food Photo (5).png" alt="pizza"></a>
+        <figcaption><p><b>Pizza</b></p></figcaption></figure></li>
+        <li><figure><a href="#"><img src="./images/Image (7).png" alt="burger"></a>
+        <figcaption><p><b>Burger</b></p></figcaption></figure></li>
+        <li><figure><a href="#"><img src="./images/Image (8).png" alt="noodles"></a>
+        <figcaption><p><b>Noodles</b></p></figcaption></figure></li>
+        <li><figure><a href="#"><img src="./images/Image (9).png" alt="sub-sandwitch"></a>
+        <figcaption><p><b>Sub sandwitch</b></p></figcaption></figure></li>
+        <li><figure><a href="#"><img src="./images/Image (10).png" alt="chowmein"></a>
+            <figcaption><p><b>Chowmein</b></p></figcaption></figure></li>
+        <li><figure><a href="#"><img src="./images/Image (11).png" alt="steak"></a>
+            <figcaption><p><b>Steak</b></p></figcaption></figure></li>
+    </ul>
+    <p class="alignment">Search by food</p>
+    <p class="second-alignment">View all> <img src="./images/Arrow Left.png" alt="arrow left"><img src="./images/Arrow Right.png" alt="arrow right"></p>
+  </section>
+  <!-- -------------------------------------------------------food-options-end-------------------------------------- -->
+  <!-- ------------------------------------------------------------install-start----------------------------------------- -->
+  <section id="install">
+        <ul>
+            <li>
+                <figure>
+                    <img src="./images/Icon.png" alt="discount-icon">
+                    <figcaption>
+                        <h3>Daily Discounts</h3>
+                    </figcaption>
+                </figure>
+            </li><hr>
+                <li>
+                    <figure>
+                        <img src="./images/Icon (1).png" alt="location">
+                        <figcaption>
+                            <h3>Live Tracking</h3>
+                        </figcaption>
+                    </figure>
+        </li><hr>
+        <li>
+            <figure>
+                <img src="./images/Icon (2).png" alt="time">
+                <figcaption>
+                    <h3>Quick Delivery</h3>
+                </figcaption>
+            </figure>
+</li><hr>
+    </ul>
+    <section id="mobile">
+        <figure class="mobile-pic">
+            <img src="./images/Image (23).png" alt="mobile-phone">
+        </figure>
+        <h1 class="big-problem"><b>Install the app</b></h1><br>
+        <p>It's never been easier to order food.Look for the finest discounts and you'll be lost in a world of detectable food.</p>
+        <div class="setting-out">
+        <figure class="app-logo-one">
+            <img src="./images/Google Play Download.png" alt="play-store">
+        </figure>
+        <figure class="app-logo-two"><img src="./images/App Store Download Button.png" alt="app-store">
+        </figure>
+    </div>
+    </section>
+  </section>
+   <!-- ------------------------------------------------------------install-end----------------------------------------->
+   <!-- ------------------------------------------------------------sandwitch-start------------------------------------------- -->
+   <section id="sandwitch">
+    <div class="responsive">
+        <div class="sandwich-start">
+    <div class="flex-container">
+    <p class="black">Best deals</p><p class="yellow">Crispy Sandwiches</p>
+</div>
+<p class="grey">Enjoy the large size of sandwiches.Complete perfect slice of sandwiches.</p>
+<figure>
+<img src="./images/Button (4).png" alt="button"></figure>
+</div>
+<div class="sandwich-end">
+<figure class="big-sandwitch"><img src="./images/Image (12).png" alt="sandwich"></figure>
+</div>
+</div>
+<!-- ---------------------------------first-image-------------------------------------------- -->
+<div class="bbq">
+    <div class="responsive">
+    <div class="bbq-start">
+    <figure>
+        <img src="./images/Image (13).png" alt="bbq">
+    </figure>
+</div>
+<div class="bbq-end">
+    <div class="flex-container">
+        <p class="black">Celebrate parties with</p><p class="yellow">Fried Chicken</p>
+    </div>
+    <p class="grey">Get the best fried chicken smeared with a lip smacking lemon chili flavour.Check out best deals for fried chicken.</p>
+    <figure>
+    <img src="./images/Button (4).png" alt="button"></figure>
+</div>
+</div>
+</div>
+    <!-- ------------------------second-image--------------------------------------------- -->
+    <div class="pan-pizza">
+        <div class="responsive">
+            <div class="pizza-start">
+    <div class="flex-container">
+        <p class="black">Wanna eat hot & spicy</p><p class="yellow">Pizza?</p>
+    </div>
+    <p class="grey">Pair up with a friend and enjoy the hot and crispy pizza pops.Try it with the best deals.</p>
+    <figure>
+    <img src="./images/Button (4).png" alt="button"></figure>
+</div>
+<div class="pizza-end">
+    <img src="./images/Image (14).png" alt="pizza" width="100%">
+</div>
+</div>
+    </div>
+<!-- ------------------------------third-image-------------------------------- -->
+   </section>
+   <!-- -----------------------------------------------------------------sandwitch-end------------------------------------------------ -->
+   <!-- -------------------------------------------------------------------last-banner-start----------------------------------- -->
+   <section id="last-banner">
+    <div class="l-banner">
+    <figure><img src="./images/Image (27).png" alt="last-banner">
+        <div class="photo">
+    <h1>Are you ready to order with the best deals.</h1>
+    <figure>
+        <img src="./images/Button (5).png" alt="button">
+    </figure>
+</div>
+</div>
+</figure>
+   </section>
+   <!-- -------------------------------------------------------------------------last-banner-end------------------------------------------ -->
+   <!-- -----------------------------------------------------------------------------footer-start--------------------------------- -->
+   <section id="footer">
+    <h3>Our top cities</h3>
+    <div class="flex-box">
+    <ol>
+        <li>San francisco</li>
+        <li>Miami</li>
+        <li>San Diego</li>
+        <li>Long Beach</li>
+    </ol>
+    <ol><li>Los Angeles</li>
+        <li>Washington DC</li>
+        <li>Seattle</li>
+        <li>Portland</li>
+        <li>Nashville</li>
+    </ol>
+    <ol>
+        <li>New York City</li>
+        <li>Orange County</li>
+        <li>Charlotte</li>
+        <li>Denver</li>
+    </ol>
+    <ol>
+        <li>Chicago</li>
+        <li>Phoenix</li>
+        <li>Las Vegas</li>
+        <li>Sacramento</li>
+        <li>Oklahoma City</li>
+    </ol>
+    <ol>
+        <li>Columbus</li>
+        <li>New Mexico</li>
+        <li>Albuquerque</li>
+        <li>Sacramento</li>
+        <li>New Orleans</li>
+    </ol>
+</div>
+<hr>
+<div class="flex-box-two">
+    <div class="flex">
+<h3>Company</h3>
+    <ol>
+        <li>About us</li>
+        <li>Team</li>
+        <li>Careers</li>
+        <li>Blog</li>
+    </ol>
+</div>
+<div class="flex">
+    <h3>Contact</h3>
+    <ol>
+        <li>Help & Support</li>
+        <li>Partner with us</li>
+        <li>Ride with us</li>
+    </ol>
+    </div>
+    <div class="flex">
+    <h3>Legal</h3>
+    <ol>
+        <li>Terms & Conditions</li>
+        <li>Refund & Cancellation</li>
+        <li>Privacy Policy</li>
+        <li>Cookie Policy</li>
+    </ol>
+    </div>
+    <div class="flex">
+    <h3 class="new-grey">FOLLOW US</h3>
+    <ol>
+        <li><img src="./images/1.png" alt="insta"><img src="./images/2.png" alt="facebook"><img src="./images/3.png" alt="twitter"></li>
+        <br>
+        <li><p>Receive exclusive offers in your mailbox</p></li>
+        <li><input type="email" name="email" id="email" placeholder="Enter Your email"><img src="./images/Button (6).png" alt=""></li>
+        <li></li>
+    </ol>
+</div>
+</div>
+   </section>
+   <!-- --------------------------------------------footer-end----------------------------------------------- -->
+</body>
+</html>

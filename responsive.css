@@ -1,0 +1,193 @@
+@media(min-width:550px){
+   #greys-vage{
+      margin-left: 0%;
+   }
+   ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   #greys-vage li{
+      flex-basis: 48%;
+   }
+   #how-does-it-work li{
+     flex-basis: 40%;
+   }
+   #popular-items li{
+      flex-basis: 48%;
+    }
+    #featured-restaurant li{
+      flex-basis: 48%;
+    }
+    #food-options li{
+      flex-basis: 48%;
+    }
+    #popular-items figcaption h3{
+      font-size: 188%;
+    }
+    #install li{
+      flex-basis: 42%;
+    }
+    #sandwitch p{
+      margin: 1%;
+      font-size: 170%;
+    }
+    .photo h1{
+      font-size: 30%;
+      margin: 2%;
+  }
+  .photo figure img{
+      width: 68%;
+  }
+  .flex-box{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-box-two{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media(min-width:800px){
+   #greys-vage li{
+      flex-basis: 48%;
+   }
+   #greys-vage{
+      margin-left: 7%;
+      margin-right: 7%;
+      margin-top: 5%;
+   }
+   #how-does-it-work li{
+      flex-basis: 48%;
+    }
+    #how-does-it-work{
+      padding: 5%;
+    }
+   #popular-items li{
+    flex-basis: 45%;
+   }
+    #popular-items{
+      margin-left: 7%;
+      margin-right: 7%;
+      margin-top: 5%;
+    }
+    .masla-hai img{
+      object-position: -12%;
+    }
+    #featured-restaurant li{
+      flex-basis: 48%;
+    }
+    #featured-restaurant{
+      margin-left: 7%;
+      margin-right: 7%;
+      margin-top: 7%;
+    }
+    #food-options li{
+      flex-basis: 33%;
+    }
+    #food-options .alignment{
+      text-align: left;
+      display: flex;
+    }
+    #food-options .second-alignment{
+      text-align: right;
+    }
+    #food-options .second-alignment img{
+      margin-bottom: 0%;
+    }
+    #install ul{
+    justify-content: space-between;
+    }
+    #install li{
+      width: 27%;
+      flex-basis: 24%;
+      }
+      #mobile .mobile-pic img{
+        width: 71%;
+    }
+    .photo h1{
+      font-size: 40%;
+      margin: 2%;
+  }
+  .photo figure img{
+      width: 73%;
+  }
+  .sandwich-start{
+    width: 55%;
+  }
+  .sandwich-end{
+    width: 60%;
+  }
+  #sandwitch .responsive{
+    display: flex;
+  }
+  .flex-container{
+    font-size: 69%;
+  }
+  .sandwich-start .grey{
+    width: 73%;
+  }
+  .sandwich-start figure img{
+    width: 84%;
+  }
+  .bbq-end .grey{
+    width: 102%;
+  }
+  .app-logo-one,.app-logo-two{
+    width: 50%;
+}
+.setting-out {
+  display: flex;
+}
+    }
+@media(min-width:1000px){
+  #popular-items li{
+    flex-basis: 18%;
+  }
+  #greys-vage li{
+    flex-basis: 24%;
+  }
+  #how-does-it-work li{
+    flex-basis: 24%;
+  }
+  #featured-restaurant li{
+    flex-basis: 24%;
+  }
+  .button{
+    width: 20%;
+    margin-left: 43%;
+  }
+  #food-options li{
+    flex-basis: 16%;
+  }
+  #popular-items figcaption h3{
+    font-size: 115%;
+  }
+  #install li{
+    width: 25%;
+    flex-basis: 24%;
+    }
+    .photo h1{
+      font-size: 52%;
+      margin: 2%;
+  }
+  .photo figure img{
+      width: 76%;
+  }
+  .flex-container{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .pizza-start{
+    margin-top: 3%;
+  }
+  .flex-box{
+    margin: 11%;
+  }
+  .flex{
+    width: 20%;
+  }
+  .flex ol{
+    margin-left: -17%;
+  }
+}
